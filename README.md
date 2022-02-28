@@ -4,11 +4,11 @@ Blue Archive Information and community
 # Commit message RULE (Recommend)   
 $ <type>(<scope>): <subject> -- 헤더   
   <BLANK LINE> -- 빈 줄   
-  <body> -- 본문   
-  <BLANK LINE> -- 빈 줄   
-  <footer> -- 바닥 글   
-       
-       
+  <body> -- 본문    
+  <BLANK LINE> -- 빈 줄    
+  <footer> -- 바닥 글    
+        
+        
   feat : 새로운 기능에 대한 커밋   
   fix : build 빌드 관련 파일 수정에 대한 커밋   
   build : 빌드 관련 파일 수정에 대한 커밋   
