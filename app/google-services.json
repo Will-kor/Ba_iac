@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484727134089",
+    "project_id": "ba-iac",
+    "storage_bucket": "ba-iac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484727134089:android:95da32da569071256b3358",
+        "android_client_info": {
+          "package_name": "com.self_development.Ba_iac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484727134089-ommtrdiv0rei83ai4oock7mltb8kpr1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX4mPPUhHkreMGoiH6Cpm3FxekYGvQsn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484727134089-ommtrdiv0rei83ai4oock7mltb8kpr1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
