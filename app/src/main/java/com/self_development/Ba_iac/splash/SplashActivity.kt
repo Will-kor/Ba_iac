@@ -10,6 +10,7 @@ import com.google.firebase.ktx.Firebase
 import com.self_development.Ba_iac.MainActivity
 import com.self_development.Ba_iac.R
 import com.self_development.Ba_iac.auth.AuthActivity
+import com.self_development.Ba_iac.auth.NameActivity
 import com.self_development.Ba_iac.utils.FirebaseAuthUtils
 
 class SplashActivity : AppCompatActivity() {
