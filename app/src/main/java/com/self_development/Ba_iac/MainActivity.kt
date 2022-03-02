@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
                         if (currentBIndex > 0) {
                             viewFlipper.showPrevious()
                             currentBIndex--
-                                if (currentBIndex == 2) {
+                                if (currentBIndex == countBIndexes - 1) {
                                     bannerRarrow.setTextColor(Color.parseColor("#d3d3d3"))
                                 }
                                 else if (currentBIndex == 0) {
