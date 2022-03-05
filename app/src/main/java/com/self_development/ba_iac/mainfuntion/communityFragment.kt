@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.findNavController
+import com.self_development.ba_iac.R
 import com.self_development.ba_iac.databinding.FragmentCommunityBinding
 
 class communityFragment : Fragment() {
@@ -25,8 +27,21 @@ class communityFragment : Fragment() {
     ): View? {
 
         _binding = FragmentCommunityBinding.inflate(inflater, container, false)
-        binding.communityTap.setOnClickListener {
-            Toast.makeText(context, "ㅎㅇ", Toast.LENGTH_SHORT).show()
+
+        binding.profileTap.setOnClickListener {
+            it.findNavController().navigate(R.id.action_communityFragment_to_studentProfileFragment)
+        }
+
+        binding.organizeTap.setOnClickListener {
+            it.findNavController().navigate(R.id.action_communityFragment_to_organizeFragment)
+        }
+
+        binding.raidBossTap.setOnClickListener {
+            it.findNavController().navigate(R.id.action_communityFragment_to_raidBossFragment)
+        }
+
+        binding.questTap.setOnClickListener {
+            it.findNavController().navigate(R.id.action_communityFragment_to_questFragment)
         }
 
         return binding.root

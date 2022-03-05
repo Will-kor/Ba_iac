@@ -9,25 +9,93 @@
         android:id="@+id/communityFragment"
         android:name="com.self_development.ba_iac.mainfuntion.communityFragment"
         android:label="fragment_community"
-        tools:layout="@layout/fragment_community" />
+        tools:layout="@layout/fragment_community" >
+        <action
+            android:id="@+id/action_communityFragment_to_organizeFragment"
+            app:destination="@id/organizeFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_questFragment"
+            app:destination="@id/questFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_raidBossFragment"
+            app:destination="@id/raidBossFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_studentProfileFragment"
+            app:destination="@id/studentProfileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/organizeFragment"
         android:name="com.self_development.ba_iac.mainfuntion.organizeFragment"
         android:label="fragment_organize"
-        tools:layout="@layout/fragment_organize" />
+        tools:layout="@layout/fragment_organize" >
+        <action
+            android:id="@+id/action_organizeFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_organizeFragment_to_questFragment"
+            app:destination="@id/questFragment" />
+        <action
+            android:id="@+id/action_organizeFragment_to_raidBossFragment"
+            app:destination="@id/raidBossFragment" />
+        <action
+            android:id="@+id/action_organizeFragment_to_studentProfileFragment"
+            app:destination="@id/studentProfileFragment" />
+        <action
+            android:id="@+id/action_organizeFragment_to_communityFragment2"
+            app:destination="@id/communityFragment" />
+    </fragment>
     <fragment
         android:id="@+id/questFragment"
         android:name="com.self_development.ba_iac.mainfuntion.questFragment"
         android:label="fragment_quest"
-        tools:layout="@layout/fragment_quest" />
+        tools:layout="@layout/fragment_quest" >
+        <action
+            android:id="@+id/action_questFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_questFragment_to_organizeFragment"
+            app:destination="@id/organizeFragment" />
+        <action
+            android:id="@+id/action_questFragment_to_raidBossFragment"
+            app:destination="@id/raidBossFragment" />
+        <action
+            android:id="@+id/action_questFragment_to_studentProfileFragment"
+            app:destination="@id/studentProfileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/raidBossFragment"
         android:name="com.self_development.ba_iac.mainfuntion.raidBossFragment"
         android:label="fragment_raid_boss"
-        tools:layout="@layout/fragment_raid_boss" />
+        tools:layout="@layout/fragment_raid_boss" >
+        <action
+            android:id="@+id/action_raidBossFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_raidBossFragment_to_organizeFragment"
+            app:destination="@id/organizeFragment" />
+        <action
+            android:id="@+id/action_raidBossFragment_to_questFragment"
+            app:destination="@id/questFragment" />
+        <action
+            android:id="@+id/action_raidBossFragment_to_studentProfileFragment"
+            app:destination="@id/studentProfileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/studentProfileFragment"
         android:name="com.self_development.ba_iac.mainfuntion.studentProfileFragment"
         android:label="fragment_student_profile"
-        tools:layout="@layout/fragment_student_profile" />
+        tools:layout="@layout/fragment_student_profile" >
+        <action
+            android:id="@+id/action_studentProfileFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_studentProfileFragment_to_organizeFragment"
+            app:destination="@id/organizeFragment" />
+        <action
+            android:id="@+id/action_studentProfileFragment_to_questFragment"
+            app:destination="@id/questFragment" />
+        <action
+            android:id="@+id/action_studentProfileFragment_to_raidBossFragment"
+            app:destination="@id/raidBossFragment" />
+    </fragment>
 </navigation>

@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".mainfuntion.MainFuntionActivity">
 
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/idcard_gehenna"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         app:navGraph="@navigation/main_nav" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
