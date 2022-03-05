@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ba_iac">
         <activity
+            android:name=".mainfuntion.MainFuntionActivity"
+            android:exported="false" />
+        <activity
             android:name=".setting.SettingActivity"
             android:exported="false" />
         <activity

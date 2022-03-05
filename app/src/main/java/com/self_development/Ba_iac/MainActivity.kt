@@ -13,6 +13,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
 import com.self_development.Ba_iac.auth.AuthActivity
+import com.self_development.Ba_iac.mainfuntion.MainFuntionActivity
 import com.self_development.Ba_iac.setting.MyPageActivity
 
 
@@ -51,6 +52,14 @@ class MainActivity : AppCompatActivity() {
         profile.setOnClickListener {
 
             val intent = Intent(this, MyPageActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        val mainFunBtn = findViewById<Button>(R.id.mainFunBtn)
+        mainFunBtn.setOnClickListener {
+
+            val intent = Intent(this, MainFuntionActivity::class.java)
             startActivity(intent)
 
         }
