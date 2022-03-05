@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac.auth
+package com.self_development.ba_iac.auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,7 @@ import android.widget.EditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.self_development.Ba_iac.R
+import com.self_development.ba_iac.R
 
 class JoinActivity : AppCompatActivity() {
 

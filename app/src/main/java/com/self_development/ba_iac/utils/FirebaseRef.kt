@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac.utils
+package com.self_development.ba_iac.utils
 
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase

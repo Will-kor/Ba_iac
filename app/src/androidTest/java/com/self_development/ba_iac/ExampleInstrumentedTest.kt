@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac
+package com.self_development.ba_iac
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

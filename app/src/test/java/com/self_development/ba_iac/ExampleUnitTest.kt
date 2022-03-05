@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac
+package com.self_development.ba_iac
 
 import org.junit.Test
 

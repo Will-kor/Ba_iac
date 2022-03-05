@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac.setting
+package com.self_development.ba_iac.setting
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,12 +8,10 @@ import android.widget.TextView
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
-import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.ktx.storage
-import com.self_development.Ba_iac.R
-import com.self_development.Ba_iac.auth.UserDataModel
-import com.self_development.Ba_iac.utils.FirebaseAuthUtils
-import com.self_development.Ba_iac.utils.FirebaseRef
+import com.self_development.ba_iac.R
+import com.self_development.ba_iac.auth.UserDataModel
+import com.self_development.ba_iac.utils.FirebaseAuthUtils
+import com.self_development.ba_iac.utils.FirebaseRef
 
 class MyPageActivity : AppCompatActivity() {
 

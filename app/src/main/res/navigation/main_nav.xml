@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/communityFragment"
-        android:name="com.self_development.Ba_iac.mainfuntion.communityFragment"
+        android:name="com.self_development.ba_iac.mainfuntion.communityFragment"
         android:label="fragment_community"
         tools:layout="@layout/fragment_community" />
     <fragment
         android:id="@+id/organizeFragment"
-        android:name="com.self_development.Ba_iac.mainfuntion.organizeFragment"
+        android:name="com.self_development.ba_iac.mainfuntion.organizeFragment"
         android:label="fragment_organize"
         tools:layout="@layout/fragment_organize" />
     <fragment
         android:id="@+id/questFragment"
-        android:name="com.self_development.Ba_iac.mainfuntion.questFragment"
+        android:name="com.self_development.ba_iac.mainfuntion.questFragment"
         android:label="fragment_quest"
         tools:layout="@layout/fragment_quest" />
     <fragment
         android:id="@+id/raidBossFragment"
-        android:name="com.self_development.Ba_iac.mainfuntion.raidBossFragment"
+        android:name="com.self_development.ba_iac.mainfuntion.raidBossFragment"
         android:label="fragment_raid_boss"
         tools:layout="@layout/fragment_raid_boss" />
     <fragment
         android:id="@+id/studentProfileFragment"
-        android:name="com.self_development.Ba_iac.mainfuntion.studentProfileFragment"
+        android:name="com.self_development.ba_iac.mainfuntion.studentProfileFragment"
         android:label="fragment_student_profile"
         tools:layout="@layout/fragment_student_profile" />
 </navigation>

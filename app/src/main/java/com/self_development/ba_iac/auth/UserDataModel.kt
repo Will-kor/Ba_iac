@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac.auth
+package com.self_development.ba_iac.auth
 
 class UserDataModel (
 

@@ -1,4 +1,4 @@
-package com.self_development.Ba_iac
+package com.self_development.ba_iac
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,9 +12,9 @@ import com.bumptech.glide.Glide
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
-import com.self_development.Ba_iac.auth.AuthActivity
-import com.self_development.Ba_iac.mainfuntion.MainFuntionActivity
-import com.self_development.Ba_iac.setting.MyPageActivity
+import com.self_development.ba_iac.auth.AuthActivity
+import com.self_development.ba_iac.mainfuntion.MainFuntionActivity
+import com.self_development.ba_iac.setting.MyPageActivity
 
 
 class MainActivity : AppCompatActivity() {

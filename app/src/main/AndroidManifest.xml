@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.self_development.Ba_iac">
+    package="com.self_development.ba_iac">
 
     <application
         android:allowBackup="true"
@@ -10,28 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ba_iac">
         <activity
-            android:name=".mainfuntion.MainFuntionActivity"
+            android:name="com.self_development.ba_iac.mainfuntion.MainFuntionActivity"
             android:exported="false" />
         <activity
-            android:name=".setting.SettingActivity"
+            android:name="com.self_development.ba_iac.setting.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".setting.MyPageActivity"
+            android:name="com.self_development.ba_iac.setting.MyPageActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.NameActivity"
+            android:name="com.self_development.ba_iac.auth.NameActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.JoinActivity"
+            android:name="com.self_development.ba_iac.auth.JoinActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.LoginActivity"
+            android:name="com.self_development.ba_iac.auth.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.AuthActivity"
+            android:name="com.self_development.ba_iac.auth.AuthActivity"
             android:exported="false" />
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="com.self_development.ba_iac.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.self_development.ba_iac.MainActivity"
             android:exported="true" />
     </application>
 

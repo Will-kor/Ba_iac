@@ -1,8 +1,8 @@
-package com.self_development.Ba_iac.mainfuntion
+package com.self_development.ba_iac.mainfuntion
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.self_development.Ba_iac.R
+import com.self_development.ba_iac.R
 
 class MainFuntionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

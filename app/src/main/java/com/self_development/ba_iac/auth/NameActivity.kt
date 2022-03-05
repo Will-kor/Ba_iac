@@ -1,8 +1,6 @@
-package com.self_development.Ba_iac.auth
+package com.self_development.ba_iac.auth
 
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.drawable.BitmapDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -11,13 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.ktx.storage
-import com.self_development.Ba_iac.MainActivity
-import com.self_development.Ba_iac.R
-import com.self_development.Ba_iac.utils.FirebaseRef
-import java.io.ByteArrayOutputStream
+import com.self_development.ba_iac.MainActivity
+import com.self_development.ba_iac.R
+import com.self_development.ba_iac.utils.FirebaseRef
 
 class NameActivity : AppCompatActivity() {
 

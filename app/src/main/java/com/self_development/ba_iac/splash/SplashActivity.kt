@@ -1,17 +1,13 @@
-package com.self_development.Ba_iac.splash
+package com.self_development.ba_iac.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.util.Log
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
-import com.self_development.Ba_iac.MainActivity
-import com.self_development.Ba_iac.R
-import com.self_development.Ba_iac.auth.AuthActivity
-import com.self_development.Ba_iac.auth.NameActivity
-import com.self_development.Ba_iac.utils.FirebaseAuthUtils
+import com.self_development.ba_iac.MainActivity
+import com.self_development.ba_iac.R
+import com.self_development.ba_iac.auth.AuthActivity
+import com.self_development.ba_iac.utils.FirebaseAuthUtils
 
 class SplashActivity : AppCompatActivity() {
 

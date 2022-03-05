@@ -1,14 +1,12 @@
-package com.self_development.Ba_iac.mainfuntion
+package com.self_development.ba_iac.mainfuntion
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.Toast
-import com.self_development.Ba_iac.R
-import com.self_development.Ba_iac.databinding.FragmentCommunityBinding
+import com.self_development.ba_iac.databinding.FragmentCommunityBinding
 
 class communityFragment : Fragment() {
 

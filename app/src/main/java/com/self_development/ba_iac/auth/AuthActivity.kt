@@ -1,10 +1,10 @@
-package com.self_development.Ba_iac.auth
+package com.self_development.ba_iac.auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.self_development.Ba_iac.R
+import com.self_development.ba_iac.R
 
 class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
